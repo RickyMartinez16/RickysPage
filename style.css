@@ -1,0 +1,53 @@
+.align-center{
+  text-align: center;
+}
+
+/*header footer style*/
+header{
+  height:120px ;
+  margin-top: -40px;
+  padding: 50px;
+}
+
+header, footer {
+  color: #2274A5;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 25px;
+  background-color:#E7DFC6;
+}
+
+/* main style */
+main article div{
+  padding-top:20px;
+}
+
+.wrapper{
+  width:350px;
+  margin:auto;
+
+}
+
+main {
+  font-size:15px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  color:#131B23;
+  background-color:#E9F1F7;
+}
+
+
+/* list style */
+ul, ol { 
+	display: inline-block; 
+	text-align: left; 
+	}
+
+li{
+  list-style-position: inside;
+}
+
+
+/* link style */
+a.link{color:blue;}
+a.visited{color:pink;}
+a.hover{color:red;}
+a.active{color:green;}
